@@ -1,0 +1,46 @@
+/* Bootstrap standard media query */
+/* todohighlight.include Small RED */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* start heder */
+@media(max-width:767px){
+header a.logo{
+  width: 100%;
+  height: 50px;
+}
+}
+
+  /* end heder */
+/* start landing  */
+@media (max-width: 992px){
+  .landing .content{
+    flex-direction: column;
+}
+.landing{
+  height: 100vh;
+}
+.landing .box{
+  width: 100%;
+}
+.landing .image {
+  width: 100%;
+
+}
+
+}
